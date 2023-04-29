@@ -9,7 +9,7 @@ module.exports = (phase) => {
         password: "6DKXy6QypJ7Sr7JX",
         cluster: "cluster0",
         database: "blog-dev",
-      },
+      }
     };
   }
   return {
@@ -18,6 +18,6 @@ module.exports = (phase) => {
       password: "6DKXy6QypJ7Sr7JX",
       cluster: "cluster0",
       database: "blog",
-    },
+    }
   };
 };

@@ -28,5 +28,6 @@ export async function getStaticProps() {
     props: {
       postsdata: JSON.stringify(featuredData),
     },
+    revalidate:100
   };
 }

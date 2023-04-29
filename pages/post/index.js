@@ -24,5 +24,7 @@ export function getStaticProps() {
     props: {
       posts: JSON.stringify(data),
     },
+    revalidate:100
+
   };
 }

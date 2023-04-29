@@ -29,6 +29,8 @@ export async function getStaticProps(context){
    return {
       props:{
          postdata:JSON.stringify(data)
-      }
+      },
+    revalidate:100
+
    }
 }

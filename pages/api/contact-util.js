@@ -21,6 +21,7 @@ export default async function handler(req, res) {
       client = await MongoClient.connect(
         `mongodb+srv://${process.env.username}:${process.env.password}@${process.env.cluster}.amrif11.mongodb.net/${process.env.database}`
       );
+      
     } catch (e) {
       res.status(500).json(e);
     }
